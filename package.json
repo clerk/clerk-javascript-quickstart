@@ -1,5 +1,4 @@
 {
     "name": "clerk-js-starter",
-    "description": "Use Clerk's authentication and user management with vanilla JavaScript",
-    "main": "index.html"
+    "description": "Use Clerk's authentication and user management with vanilla JavaScript"
 }
