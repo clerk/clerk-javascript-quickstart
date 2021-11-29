@@ -1,0 +1,13 @@
+body,
+html {
+    font-family: Lato;
+    text-align: center;
+}
+
+#auth-links {
+    display: none;
+}
+
+#user-button {
+    margin: 0 auto;
+}
