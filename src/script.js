@@ -29,4 +29,7 @@ const startClerk = async () => {
     script.src = `https://${frontendApi}/npm/@clerk/clerk-js@2/dist/clerk.browser.js`
     script.addEventListener('load', startClerk)
     document.body.appendChild(script)
+
+    const noFrontendApiWarning = document.getElementById('no-frontend-api-warning')
+    noFrontendApiWarning.style.display = 'none'
 })()

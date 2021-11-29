@@ -11,3 +11,14 @@ html {
 #user-button {
     margin: 0 auto;
 }
+
+#no-frontend-api-warning h3 {
+    color: #e61d1d;
+    margin-bottom: 0;
+}
+
+#no-frontend-api-warning h4 {
+    color: #333;
+    font-weight: 400;
+    margin-top: 10px;
+}
