@@ -1,4 +1,4 @@
-// const frontendApi = 'your-frontend-api'
+const frontendApi = 'your-frontend-api'
 
 const startClerk = async () => {
     const Clerk = window.Clerk
