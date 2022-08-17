@@ -1,24 +1,26 @@
-body,
-html {
-    font-family: Lato;
-    text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-#auth-links {
-    display: none;
+html,
+body {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
 }
 
 #user-button {
-    margin: 0 auto;
+  margin: auto;
+}
+
+#auth-links {
+  display: none;
 }
 
 #no-frontend-api-warning h3 {
-    color: #e61d1d;
-    margin-bottom: 0;
+  color: #e61d1d;
+  margin-bottom: 0;
 }
 
 #no-frontend-api-warning h4 {
-    color: #333;
-    font-weight: 400;
-    margin-top: 10px;
+  color: #333;
+  font-weight: 400;
+  margin-top: 10px;
 }

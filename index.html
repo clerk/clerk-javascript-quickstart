@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Clerk JavaScript Starter</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clerk JavaScript Starter</title>
 
-        <link href="src/style.css" rel="stylesheet" />
-    </head>
+    <link href="src/style.css" rel="stylesheet" />
+  </head>
 
-    <body>
-        <h1>Clerk JavaScript Starter</h1>
+  <body>
+    <h1>Clerk JavaScript Starter</h1>
 
-        <div id="auth-links">
-            <button onclick="Clerk.openSignUp()">Sign Up</button>
-            <button onclick="Clerk.openSignIn()">Sign In</button>
-        </div>
+    <div id="auth-links">
+      <button onclick="Clerk.openSignUp()">Sign Up</button>
+      <button onclick="Clerk.openSignIn()">Sign In</button>
+    </div>
 
-        <div id="user-button"></div>
+    <div id="user-button"></div>
 
-        <div id="no-frontend-api-warning">
-            <h3>No frontend API found</h3>
-            <h4>Add it at the top of <code>src/script.js</code>.</h4>
-        </div>
+    <div id="no-frontend-api-warning" hidden>
+      <h3>No Frontend API found</h3>
+      <h4>Add it to the top of <code>src/script.js</code>.</h4>
+    </div>
 
-        <script src="src/script.js" async crossorigin="anonymous"></script>
-    </body>
+    <script src="src/script.js" async crossorigin="anonymous"></script>
+  </body>
 </html>
