@@ -5,25 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clerk JavaScript Starter</title>
-
-    <link href="src/style.css" rel="stylesheet" />
   </head>
 
   <body>
-    <h1>Clerk JavaScript Starter</h1>
+    <div id="app"></div>
 
-    <div id="auth-links">
-      <button onclick="Clerk.openSignUp()">Sign Up</button>
-      <button onclick="Clerk.openSignIn()">Sign In</button>
-    </div>
+    <!-- Go to the Clerk Dashboard and select API Keys from the sidenav on the left. In the "Quick Copy" section, select JavaScript, copy the script tag, and paste it below. -->
+    <script
+      async
+      crossorigin="anonymous"
+      data-clerk-publishable-key="insert_your_publishable_key"
+      onload="window.Clerk.load()"
+      src="[insert_your_frontend_api_url]/npm/@clerk/clerk-js@latest/dist/clerk.browser.js"
+      type="text/javascript"
+    ></script>
 
-    <div id="user-button"></div>
+    <script>
+      window.addEventListener("load", async function () {
+        await Clerk.load();
 
-    <div id="no-frontend-api-warning" hidden>
-      <h3>No Frontend API found</h3>
-      <h4>Add it to the top of <code>src/script.js</code>.</h4>
-    </div>
+        if (Clerk.user) {
+          document.getElementById("app").innerHTML = `
+            <div id="user-button"></div>
+          `;
 
-    <script src="src/script.js" async crossorigin="anonymous"></script>
+          const userButtonDiv = document.getElementById("user-button");
+
+          Clerk.mountUserButton(userButtonDiv);
+        } else {
+          document.getElementById("app").innerHTML = `
+            <div id="sign-in"></div>
+          `;
+
+          const signInDiv = document.getElementById("sign-in");
+
+          Clerk.mountSignIn(signInDiv);
+        }
+      });
+    </script>
   </body>
 </html>

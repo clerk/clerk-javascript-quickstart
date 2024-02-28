@@ -1,4 +1,4 @@
 {
-    "name": "clerk-js-starter",
-    "description": "Use Clerk's authentication and user management with vanilla JavaScript"
+    "name": "clerk-javascript-starter",
+    "description": "Add authentication and user management to your JavaScript app with Clerk."
 }
