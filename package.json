@@ -1,4 +1,17 @@
 {
-    "name": "clerk-javascript-starter",
-    "description": "Add authentication and user management to your JavaScript app with Clerk."
+  "name": "clerk-javascript-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "@clerk/clerk-js": "^4.70.1"
+  }
 }
