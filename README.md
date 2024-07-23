@@ -42,6 +42,7 @@ To add the [ClerkJS SDK](/docs/references/javascript/overview) to your JavaScrip
 2. Use the `<script>` tag to load the ClerkJS package from our CDN.
 
 The branches of this repository represent the results of these implementation:
+
 - `main`: The result of following the JavaScript quickstart if you chose `NPM module` as your preferred method.
 - `with-script-tag`: The result of following the JavaScript quickstart if you chose `<script>` as your preferred method.
 
@@ -58,7 +59,9 @@ git clone https://github.com/clerk/clerk-javascript-quickstart
 ```
 
 To run the example locally, you need to:
+
 <!-- Need new UTM link? Replaced "react" with "javascript" for now-->
+
 1. Sign up for a Clerk account at [https://clerk.com](https://dashboard.clerk.com/sign-up?utm_source=DevRel&utm_medium=docs&utm_campaign=templates&utm_content=10-24-2023&utm_term=clerk-javascript-quickstart).
 <!-- Need new UTM link? Replaced "react" with "javascript" for now-->
 2. Go to the [Clerk dashboard](https://dashboard.clerk.com?utm_source=DevRel&utm_medium=docs&utm_campaign=templates&utm_content=10-24-2023&utm_term=clerk-javascript-quickstart) and create an application.
@@ -72,23 +75,18 @@ To run the example locally, you need to:
 ## Learn more
 
 To learn more about Clerk and JavaScript, check out the following resources:
+
 <!-- Need UTM link-->
+
 - [ClerkJS SDK Reference Documentation](https://clerk.com/docs/references/javascript/overview)
 <!-- Need new UTM link? Replaced "react" with "javascript" for now-->
 - [Clerk Documentation](https://clerk.com/docs?utm_source=DevRel&utm_medium=docs&utm_campaign=templates&utm_content=10-24-2023&utm_term=clerk-javascript-quickstart)
 
 - [Vite Documentation](https://vitejs.dev/guide/)
 
-## Found an issue?
+## Found an issue or want to leave feedback
 
-If you have found an issue with the quickstart, please create an [issue](https://github.com/clerk/clerk-javascript-quickstart/issues).
-
-If it's a quick fix, such as a misspelled word or a broken link, feel free to skip creating an issue.
-Go ahead and create a [pull request](https://github.com/clerk/clerk-javascript-quickstart/pulls) with the solution. :rocket:
-
-## Want to leave feedback?
-
-Feel free to create an [issue](https://github.com/clerk/clerk-javascript-quickstart/issues) with the **feedback** label. Our team will take a look at it and get back to you as soon as we can!
+Feel free to create a support thread on our [Discord](https://clerk.com/discord). Our support team will be happy to assist you in the `#support` channel.
 
 ## Connect with us
 
