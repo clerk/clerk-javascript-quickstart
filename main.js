@@ -1,4 +1,4 @@
-import Clerk from "@clerk/clerk-js";
+import { Clerk } from "@clerk/clerk-js";
 
 const clerkPubKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
