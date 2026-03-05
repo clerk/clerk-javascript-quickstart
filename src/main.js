@@ -13,6 +13,7 @@ const clerkDomain = atob(publishableKey.split('_')[2]).slice(0, -1)
 await new Promise((resolve, reject) => {
   const script = document.createElement('script')
   script.src = `https://${clerkDomain}/npm/@clerk/ui@1/dist/ui.browser.js`
+  script.async = true
   script.crossOrigin = 'anonymous'
   script.onload = resolve
   script.onerror = reject
